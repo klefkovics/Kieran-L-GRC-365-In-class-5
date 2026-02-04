@@ -1,52 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-  
-<!--Describe the line below-->
-<link rel="icon" href="https://github.com/favicon.ico" />
-  
-<title>Cryptid Watch</title>
-<meta
-name="description"
-content="Your number one resource for the latest Cryptid sightings."
-/>
+    <!--Formatted with the Prettier - Code Formatter plugin-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- Describe what the meta elements below for -->
-<meta name="robots" content="index,follow" />
-  
-<!-- Describe what the meta elements below for -->
-<meta property="og:title" content="Cryptid Watch" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://github.com/" />
-<meta name="twitter:card" content="summary" />
+    <!--Sets the page's favicon-->
+    <link rel="icon" href="https://github.com/favicon.ico" />
 
-<!-- Describe what the link below does -->
-<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<!--Wrap the links below in a header tag and then a nav tag-->
-<!--Add addresses to the links below-->
-<a href="">Home</a><a href="">Today's Sighting</a><a href="">Report</a>
-<!--Describe what goes in the main-->
-<main>
-<div class="hero"><div class="hero-text">
-<!-- What is an h1?-->
-<h1 class="title">Cryptid Watch</h1><p>Your home for the latest <br> cryptic sightings</p>
-</div>
-</div>
-<article>
-<h2>I want to believe</h2>
-<p>
-Here at Cryptid Watch we are dedicated to sharing stories from the witnesses with the public.
-Everyone is believed and everyone is welcome. 
-To see the latest report go to our Today's Sighting page. 
-To share you creepy encounter go to our Report page. 
-</p>    
-<p>Happy hunting.</p>
-</article></main>
-<!--What goes in the footer?-->
-<footer><a href="#">Join us on Discord</a></footer>
-</body>
+    <title>Cryptid Watch</title>
+    <meta name="description" content="Your number one resource for the latest Cryptid sightings." />
+    <!--Tells search engines how to treat the site, with 'index' indicating it should show up in search results, and 'follow' indicating links on the site should be followed to other pages -->
+    <meta name="robots" content="index,follow" />
+
+    <!--Determines what title will be displayed when the page is shared in other places-->
+    <meta property="og:title" content="Cryptid Watch" />
+    <!--Indicates the type of object that is being linked when the page is shared in other places-->
+    <meta property="og:type" content="website" />
+    <!--Specifies the url that should be included when the page is shared in other places-->
+    <meta property="og:url" content="https://github.com/" />
+    <!--Specifies that, when shared on Twitter, the page should be displayed as a summary-->
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Imports the site's style sheet from style.css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./today.html">Today's Sighting</a>
+        <a href="./report.html">Report</a>
+      </nav>
+    </header>
+    <!--The main contains the primary content of the website-->
+    <main>
+      <div class="hero">
+        <div class="hero-text">
+          <!-- The largest header at the top of the hierarchy-->
+          <h1 class="title">Cryptid Watch</h1>
+          <p>
+            Your home for the latest <br />
+            cryptic sightings
+          </p>
+        </div>
+      </div>
+      <article>
+        <h2>I want to believe</h2>
+        <p>
+          Here at Cryptid Watch we are dedicated to sharing stories from the
+          witnesses with the public. Everyone is believed and everyone is
+          welcome. To see the latest report go to our Today's Sighting page. To
+          share you creepy encounter go to our Report page.
+        </p>
+        <p>Happy hunting.</p>
+      </article>
+    </main>
+    <!--Footers usually contains copyright info, author info, or links to other resources-->
+    <footer>
+      <a href="#">Join us on Discord</a>
+    </footer>
+  </body>
 </html>
